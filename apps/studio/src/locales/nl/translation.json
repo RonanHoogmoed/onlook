@@ -1,0 +1,315 @@
+{
+    "projects": {
+        "create": {
+            "settings": {
+                "title": "Instellingen",
+                "tooltip": "Nieuwe projectinstellingen configureren"
+            },
+            "success": "Project succesvol aangemaakt.",
+            "steps": {
+                "count": "{{current}} van {{total}}",
+                "error": "Projectgegevens ontbreken."
+            },
+            "methods": {
+                "new": "Nieuw Project Aanmaken",
+                "load": "Bestaand Project Openen"
+            },
+            "loading": {
+                "title": "Je nieuwe Onlook-app aan het opzetten...",
+                "description": "Dit kan een aantal seconden duren",
+                "cancel": "Annuleren"
+            },
+            "error": {
+                "title": "Er is wat fout gegaan in het opzetten van je Onlook-app",
+                "backToPrompt": "Terug naar prompten"
+            }
+        },
+        "select": {
+            "empty": "Geen projecten gevonden",
+            "sort": {
+                "recent": "Recent bijgewerkt",
+                "name": "Projectnaam"
+            },
+            "lastEdited": "{{time}} geleden voor het laatst bijgewerkt"
+        },
+        "actions": {
+            "import": "Importeren",
+            "close": "Sluiten",
+            "about": "Over Onlook",
+            "signOut": "Afmelden",
+            "editApp": "App Bwerken",
+            "projectSettings": "Projectinstellingen",
+            "showInExplorer": "Toon in Verkenner",
+            "renameProject": "Project Hernoemen",
+            "deleteProject": "Project Verwijderen",
+            "cancel": "Annuleren",
+            "delete": "Verwijderen",
+            "rename": "Hernoemen",
+            "goToAllProjects": "Naar alle Projecten",
+            "newProject": "New Project",
+            "startFromScratch": "Vanaf nul beginnen",
+            "importProject": "Project importeren",
+            "subscriptions": "Abonnementen",
+            "settings": "Instellingen"
+        },
+        "dialogs": {
+            "delete": {
+                "title": "Weet je zeker dat je dit project wilt verwijderen?",
+                "description": "Deze actie kan niet ongedaan gemaakt worden. Dit zal het project en alle gekoppelde data verwijderen.",
+                "moveToTrash": "Ook de map naar de prullenbak verplaatsen"
+            },
+            "rename": {
+                "title": "Project Hernoemen",
+                "label": "Project Naam",
+                "error": "Project naam kan niet leeg zijn"
+            }
+        },
+        "prompt": {
+            "title": "Wat voor website wil je maken?",
+            "description": "Vertel ons wat over je project. Wees zo gedetaileerd mogelijk.",
+            "input": {
+                "placeholder": "Plak een referentieafbeelding, schrijf een boek, wees creatief...",
+                "imageUpload": "referentieafbeelding Uploaden",
+                "fileReference": "Referentie Bestand",
+                "submit": "Begin met het bouwen van je website"
+            },
+            "blankStart": "Vanaf nul beginnen"
+        }
+    },
+    "welcome": {
+        "title": "Welkom bij Onlook",
+        "titleReturn": "Welkom terug bij Onlook",
+        "description": "Onlook is een open-source visuele editor voor React applicaties. Ontwerp direct in je live product.",
+        "alpha": "Alpha",
+        "login": {
+            "github": "Inloggen met GitHub",
+            "google": "Inloggen met Google",
+            "lastUsed": "Meest recent gebruikt"
+        },
+        "terms": {
+            "agreement": "Door je in te schrijven, ga je akkoord met onze",
+            "privacy": "Privacybeleid",
+            "and": "en",
+            "tos": "Gebruiksvoorwaarden"
+        },
+        "version": "Versie {{version}}"
+    },
+    "pricing": {
+        "plans": {
+            "basic": {
+                "name": "Onlook Basis",
+                "price": "$0/maand",
+                "description": "Prototype en experimenteer gemakkelijk in code.",
+                "features": [
+                    "Toegang tot de visuele editor",
+                    "Onbeperkte hoeveelheid projecten",
+                    "{{dailyMessages}} AI chat berichten per dag",
+                    "{{monthlyMessages}} AI chat berichten per maand",
+                    "Beperkt tot 1 screenshot per chat"
+                ]
+            },
+            "pro": {
+                "name": "Onlook Pro",
+                "price": "$20/maand",
+                "description": "Onbeperkte creativiteit. Bouw prachtige sites met AI.",
+                "features": [
+                    "Toegang tot de visuele editor",
+                    "Onbeperkte hoeveelheid projecten",
+                    "Onbeperkte AI chat berichten per dag",
+                    "Onbeperkte AI chat berichten per maand",
+                    "Onbeperkte maandelijkse chats",
+                    "Verwijder de 'Gebouwd met Onlook' watermerk",
+                    "1 gratis aangepaste domein gehost met Onlook",
+                    "Prioriteit bij ondersteuning"
+                ]
+            }
+        },
+        "titles": {
+            "choosePlan": "Kies je plan",
+            "proMember": "Bedankt voor je Pro abonnement!"
+        },
+        "buttons": {
+            "currentPlan": "Huidige Plan",
+            "getPro": "Schaf Pro aan",
+            "manageSubscription": "Beheer Abonnement"
+        },
+        "loading": {
+            "checkingPayment": "Betaling wordt gecontroleerd..."
+        },
+        "toasts": {
+            "checkingOut": {
+                "title": "Uitchecken",
+                "description": "Je wordt nu doorgestuurd naar Stripe om de betaling af te ronden."
+            },
+            "redirectingToStripe": {
+                "title": "Doorsturen naar Stripe",
+                "description": "Je wordt nu doorgestuurd naar Stripe om je abonnement te beheren."
+            },
+            "error": {
+                "title": "Fout",
+                "description": "Het betaalproces kon niet gestart worden. Probeer het nog eens."
+            }
+        },
+        "footer": {
+            "unusedMessages": "Ongebruikt chatberichten gaan niet mee naar de volgende maand"
+        }
+    },
+    "editor": {
+        "modes": {
+            "design": {
+                "name": "Ontwerp",
+                "description": "Bewerk je website's design",
+                "tooltip": "Wissel naar ontwerp modus"
+            },
+            "preview": {
+                "name": "Voorbeeld",
+                "description": "Bekijk en test de functionaliteit van je website",
+                "tooltip": "Wissel naar voorbeeld modus"
+            }
+        },
+        "toolbar": {
+            "tools": {
+                "select": {
+                    "name": "Selecteren",
+                    "tooltip": "Selecteer en bewerk elementen"
+                },
+                "pan": {
+                    "name": "Verslepen",
+                    "tooltip": "Versleep en beweeg over het canvas"
+                },
+                "insertDiv": {
+                    "name": "Container toevoegen",
+                    "tooltip": "Voeg een nieuw container element toe"
+                },
+                "insertText": {
+                    "name": "Text toevoegen",
+                    "tooltip": "Voeg een nieuw text element toe"
+                }
+            },
+            "versionHistory": "Versiegeschiedenis"
+        },
+        "panels": {
+            "edit": {
+                "tabs": {
+                    "chat": {
+                        "name": "Chat",
+                        "emptyState": "Selecteer een element om met AI te chatten",
+                        "emptyStateStart": "Start het project om te chatten",
+                        "input": {
+                            "placeholder": "Typ je bericht...",
+                            "tooltip": "Chat met AI over het geselecteerde element"
+                        },
+                        "controls": {
+                            "newChat": "Nieuwe Chat",
+                            "history": "Chatgeschiedenis"
+                        },
+                        "settings": {
+                            "showSuggestions": "Toon suggestions",
+                            "expandCodeBlocks": "Toon code tijdens het renderen"
+                        },
+                        "miniChat": {
+                            "button": "Chat met AI"
+                        }
+                    },
+                    "styles": {
+                        "name": "Stijlelementen",
+                        "emptyState": "Selecteer een element om de stijlelementen te bewerken",
+                        "groups": {
+                            "position": "Positie & Dimensies",
+                            "layout": "Flexbox & Layout",
+                            "style": "Stijlen",
+                            "text": "Tekst"
+                        },
+                        "tailwind": {
+                            "title": "Tailwind Classes",
+                            "placeholder": "Voeg hier tailwind classes toe",
+                            "componentClasses": {
+                                "title": "Hoofd Component Classes",
+                                "tooltip": "Veranderingen worden standaard toegepast op de code van componenten."
+                            },
+                            "instanceClasses": {
+                                "title": "Instantie Classes",
+                                "tooltip": "Veranderingen worden toegepast op instantie code."
+                            }
+                        }
+                    }
+                }
+            },
+            "layers": {
+                "name": "Lagen",
+                "tabs": {
+                    "layers": "Lagen",
+                    "pages": "Pagina's",
+                    "components": "Componenten",
+                    "images": "Afbeeldingen",
+                    "windows": {
+                        "name": "Vensters",
+                        "emptyState": "Selecteer een venster om de instellingen aan te passen"
+                    },
+                    "brand": "Merk",
+                    "apps": "Apps"
+                }
+            }
+        },
+        "settings": {
+            "preferences": {
+                "language": "Taal",
+                "theme": "Thema",
+                "deleteWarning": "Waarschuwing voor Verwijderen",
+                "analytics": "Gegevensanalyse",
+                "editor": {
+                    "ide": "Editor",
+                    "shouldWarnDelete": "Waarschuw voor het verwijderen van elementen",
+                    "enableAnalytics": "Gegevensanalyse inschakelen"
+                },
+                "shortcuts": "Sneltoetsen"
+            }
+        },
+        "frame": {
+            "startDesigning": {
+                "prefix": "Klik op ",
+                "action": "Start",
+                "suffix": " om je app te ontwerpen"
+            },
+            "playButton": "Start",
+            "waitingForApp": "Wachten op de App..."
+        },
+        "runButton": {
+            "portInUse": "Poort wordt gebruikt",
+            "loading": "Laden",
+            "play": "Start",
+            "retry": "Opnieuw Proberen",
+            "stop": "Stopp"
+        },
+        "zoom": {
+            "level": "Zoom Niveau",
+            "in": "Zoom In",
+            "out": "Zoom Uit",
+            "fit": "Zoom Passend",
+            "reset": "Zoom 100%",
+            "double": "Zoom 200%"
+        }
+    },
+    "help": {
+        "menu": {
+            "reloadOnlook": "Onlook Herstarten",
+            "theme": {
+                "title": "Thema",
+                "light": "Licht",
+                "dark": "Donker",
+                "system": "Systeem"
+            },
+            "language": "Taal",
+            "openSettings": "Instellingen Openen",
+            "contactUs": {
+                "title": "Contact Opnemen",
+                "website": "Website",
+                "discord": "Discord",
+                "github": "GitHub",
+                "email": "Email"
+            },
+            "reportIssue": "Fouten melden",
+            "shortcuts": "Sneltoetsen"
+        }
+    }
+}
